@@ -30,7 +30,7 @@ import * as d3 from 'd3';
 
   var colorScale = d3.scaleOrdinal().range(['#edf8b1', '#7fcdbb', '#2c7fb8'])
 
-  d3.csv('eating-data.csv')
+  d3.csv(require("./eating-data.csv"))
     .then(ready)
 
   function ready(datapoints) {

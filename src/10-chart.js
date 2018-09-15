@@ -34,7 +34,8 @@ const colorScale = d3.scaleOrdinal().range(["#b3e2cd","#fdcdac","#cbd5e8","#f4ca
 
 // Read in some external data. When we're done, run the function 'ready'
 // the big difference between de v4 and d3 v5 is the way they read data. V4 .queue()
-d3.csv("eating-data.csv")
+// change for d3.csv(require("./countries.csv"))
+d3.csv(require("./eating-data.csv"))
   .then(ready)
   .catch(function(err) {
      console.log("Failed with", err)
