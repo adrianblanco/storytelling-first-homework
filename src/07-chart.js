@@ -1,4 +1,4 @@
-/* global d3 */
+import * as d3 from 'd3'
 (function() {
 
   // Delete this line, redo it.

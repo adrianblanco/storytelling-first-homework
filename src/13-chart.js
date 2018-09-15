@@ -1,4 +1,4 @@
-/* global d3 */
+import * as d3 from 'd3'
 ;(function() {
   // Build your SVG here
   // using all of that cut-and-paste magic

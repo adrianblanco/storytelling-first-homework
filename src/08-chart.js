@@ -1,4 +1,4 @@
-/* global d3 */
+import * as d3 from 'd3'
 ;(function() {
   // Don't edit any of this
   var height = 50

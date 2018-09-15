@@ -1,4 +1,4 @@
-/* global d3 */
+import * as d3 from 'd3'
 (function() {
   // DO NOT EDIT ANYTHING IN THIS FILE
   d3.csv("fake-data.csv")

@@ -1,4 +1,4 @@
-/* global d3 */
+import * as d3 from 'd3'
 (function () {
   const widthScale = d3.scaleLinear()
     .domain([0, 200])
