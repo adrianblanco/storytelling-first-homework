@@ -1,3 +1,7 @@
+// npm install d3
+// out of the src folder run:
+// storytelling-first-homework abr$ parcel build src/*.html src/**/*.html --out-dir docs --public-url /storytelling-first-homework
+
 import * as d3 from 'd3'
 (function () {
   const widthScale = d3.scaleLinear()

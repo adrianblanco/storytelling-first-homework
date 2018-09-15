@@ -1,7 +1,7 @@
 import * as d3 from 'd3'
 (function() {
   // DO NOT EDIT ANYTHING IN THIS FILE
-  d3.csv("fake-data.csv")
+  d3.csv(require("./fake-data.csv"))
     .then(ready)
     .catch(function(err) {
       console.log("Failed with", err)
